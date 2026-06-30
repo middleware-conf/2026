@@ -57,52 +57,189 @@
           <div class="block">
             <div>
               <h1>Call for Artifacts</h1>       
-               
-              <p align="justify">
-              Middleware 2026 invites authors of accepted papers to submit their research artifacts for evaluation by the Artifact Evaluation Committee, AEC. </p>              
-              <p align="justify">
-              Artifact Evaluation is an important part of good scientific practice. It helps the community assess, reuse, and build upon the software, data, scripts, and documentation associated with accepted papers. It also gives authors the opportunity to receive ACM artifact badges that recognize work whose artifacts are available, functional, and, where applicable, capable of reproducing the results reported in the paper.</p>
-              
-              <p align="justify">The evaluation process may lead to one or more of the following badges:</p>
-              <ul class="default-ul">
-                  <li align="justify">Artifacts Available – the artifact is publicly available, for example through an open-source repository or archival service.</li>
-                  <li align="justify">Artifacts Functional - the artifact can be successfully installed, executed, and used as described by the authors.</li>   
-                  <li align="justify"> Results Reproduced – the artifact allows the Artifact Evaluation Committee to reproduce the main results reported in the accepted paper.</li>
-              </ul>
 
-              <p align="justify">All submitted artifacts will be reviewed by the Middleware 2026 Artifact Evaluation Committee. The committee will assess whether the submitted package satisfies the requirements for the badges requested by the authors.</p>
+              <section id="artifact-evaluation">
 
-              <p align="justify">Authors may submit either:</p>
-              <ul class="default-ul">
-                  <li align="justify">a complete reproducibility package, including code, scripts, data, documentation, and instructions; or</li>
-                  <li align="justify"> a more limited artifact package, if the authors are requesting only the **Artifacts Available** badge.</li>
-              </ul>
+  <p>
+    Middleware 2026 invites authors of accepted papers to submit their research
+    artifacts for evaluation by the Artifact Evaluation Committee (AEC).
+  </p>
 
-              <p align="justify">Successful artifact evaluations will be recognized as part of Middleware 2026.</p>
+  <p>
+    Artifact Evaluation is an important part of good scientific practice. It
+    helps the community assess, reuse, and build upon the software, data,
+    scripts, and documentation associated with accepted papers. It also gives
+    authors the opportunity to receive ACM artifact badges that recognize work
+    whose artifacts are available, functional, and, where applicable, capable
+    of reproducing the results reported in the paper.
+  </p>
 
-              <p align="justify">The artifact submission site will be announced soon.</p>
-              
-              <p align="justify"><strong>Submission site</strong> TBD
-                <!-- Please submit your artifact at: <a href="https://middleware2026ae.hotcrp.com/" target = _blank>Submission Instructions</a> -->
-              </p>
-              <p align="justify">
-                When submitting your artifact, please clearly state in the submission abstract which badge or badges you would like the artifact to be evaluated for:<br>
-                <ol class="default-ul">
-                  <li align="justify">Artifacts Available</li>
-                  <li align="justify">Artifacts Functional</li>
-                  <li align="justify">Results Reproduced</li>
-                </ol>
+  <p>
+    The evaluation process may lead to one or more of the following badges:
+  </p>
 
-              </p>
+  <ul>
+    <li>
+      <strong>Artifacts Available</strong> &mdash; the artifact is publicly
+      available, for example through an open-source repository or archival
+      service.
+    </li>
+    <li>
+      <strong>Artifacts Functional</strong> &mdash; the artifact can be
+      successfully installed, executed, and used as described by the authors.
+    </li>
+    <li>
+      <strong>Results Reproduced</strong> &mdash; the artifact allows the
+      Artifact Evaluation Committee to reproduce the main results reported in
+      the accepted paper.
+    </li>
+  </ul>
 
-              <p align="justify">The AEC will evaluate the artifact only for the badges explicitly requested in the abstract.
-                </p><br>
-              The goal of the Artifact Evaluation process is to help verify and, where possible, reproduce the results of papers accepted at Middleware 2026. To support this process, authors should submit the most complete and carefully documented version of their artifact that they can provide.<br>
+  <p>
+    All submitted artifacts will be reviewed by the Middleware 2026 Artifact
+    Evaluation Committee. The committee will assess whether the submitted
+    package satisfies the requirements for the badge(s) requested by the
+    authors.
+  </p>
 
-              Authors should also be prepared and available to answer questions from the reviewers if clarification is needed during installation, deployment, execution, or result verification.<br>
+  <p>Authors may submit either:</p>
 
-              Please consider the following guidelines when preparing your artifact.</p>
-              
+  <ul>
+    <li>
+      a complete reproducibility package, including code, scripts, data,
+      documentation, and instructions; or
+    </li>
+    <li>
+      a more limited artifact package, if requesting only the
+      <strong>Artifacts Available</strong> badge.
+    </li>
+  </ul>
+
+  <p>
+    Successful artifact evaluations will be recognized as part of Middleware
+    2026.
+  </p>
+
+  <h2>Submission Site</h2>
+
+  <p>The artifact submission site will be announced soon.</p>
+
+  <p><strong>Submission site:</strong> TBD</p>
+
+  <p>
+    When submitting your artifact, please clearly indicate in the submission
+    abstract which badge(s) you would like the artifact to be evaluated for:
+  </p>
+
+  <ul>
+    <li>Artifacts Available</li>
+    <li>Artifacts Functional</li>
+    <li>Results Reproduced</li>
+  </ul>
+
+  <p>
+    The AEC will evaluate the artifact only for the badge(s) explicitly
+    requested in the abstract.
+  </p>
+
+  <h2>Artifact Preparation Guidelines</h2>
+
+  <p>
+    The goal of the Artifact Evaluation process is to help verify and,
+    whenever possible, reproduce the results of papers accepted at Middleware
+    2026. To support this process, authors are encouraged to submit the most
+    complete and well-documented version of their artifact.
+  </p>
+
+  <p>
+    Authors should also be available during the evaluation period to answer
+    questions from reviewers if clarification is needed during installation,
+    deployment, execution, or result verification.
+  </p>
+
+  <p>
+    Please consider the following guidelines when preparing your artifact.
+  </p>
+
+</section>
+
+
+
+  <h3>Documentation</h3>
+
+  <p>Your submission should include a clear and detailed README file. The README should explain:</p>
+
+  <ul>
+    <li>what the artifact contains;</li>
+    <li>which badges are being requested;</li>
+    <li>the system requirements;</li>
+    <li>how to install or build the artifact;</li>
+    <li>how to run the artifact;</li>
+    <li>how to reproduce the main results from the paper;</li>
+    <li>how to interpret the output.</li>
+  </ul>
+
+  <p>If the artifact supports reproducing experimental results, the documentation should also explain how to:</p>
+
+  <ol>
+    <li>run the experiments;</li>
+    <li>collect the resulting data;</li>
+    <li>parse or process the data;</li>
+    <li>generate the figures, tables, or other results reported in the paper.</li>
+  </ol>
+
+  <p>If any step must be performed manually, please provide precise step-by-step instructions. However, authors are encouraged to automate as much of the process as possible.</p>
+
+  <h3>Reproducibility Scripts</h3>
+
+  <p>Whenever possible, please include scripts that automate the full evaluation workflow, including:</p>
+
+  <ul>
+    <li>environment setup;</li>
+    <li>experiment execution;</li>
+    <li>data collection;</li>
+    <li>data processing;</li>
+    <li>plotting or result visualization.</li>
+  </ul>
+
+  <p>If some figures, tables, or results from the paper cannot be reproduced from the submitted artifact, please clearly explain why. In such cases, also explain how the core claims of the paper can still be evaluated using the submitted materials.</p>
+
+  <h3>Testing Before Submission</h3>
+
+  <p>Before submitting, authors are strongly encouraged to test their instructions on a clean machine or fresh environment. This helps identify missing dependencies, undocumented assumptions, or configuration issues before reviewers encounter them.</p>
+
+  <h3>Hardware and Resource Requirements</h3>
+
+  <p>Please include a detailed description of the hardware and software environment used to produce the results in the paper.</p>
+
+  <p>If the experiments require large-scale, specialized, or difficult-to-access hardware, please explain this clearly in the submission. In such cases, the AEC may not be able to fully reproduce every experiment. When possible, authors should consider providing reviewers with access to the required hardware or with a smaller-scale version of the experiments that still demonstrates the main functionality and claims of the paper.</p>
+
+  <h3>Packaging and Best Practices</h3>
+
+  <p>Further information about artifact packaging, reproducibility best practices, and the artifact evaluation process are available <a href="https://sysartifacts.github.io/packaging-guide" target="_blank" rel="noopener">here</a>.</p>
+
+  <h2>Important Dates</h2>
+
+  <ul>
+    <li><strong>Artifact submission deadline:</strong> 27 September</li>
+    <li><strong>Author notification:</strong> 3 November</li>
+  </ul>
+
+  <p>All deadlines are AoE unless otherwise specified.</p>
+
+  <h2>Artifact Evaluation Committee</h2>
+
+  <h3>AEC Chairs</h3>
+
+  <ul>
+    <li>Raúl Gracia-Tinedo, Dell Technologies, Spain</li>
+    <li>Daniel Barcelona-Pons, Universitat Rovira i Virgili, Spain</li>
+  </ul>
+
+  <h3>AEC Members</h3>
+
+  <p>TBD</p>
+</section>
               
             </div> 
 
